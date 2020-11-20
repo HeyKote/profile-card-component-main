@@ -76,3 +76,9 @@ body {
     color: hsl(227, 10%, 46%);
     font-size: 12px;
 }
+
+@media only screen and (max-width: 375px) {
+    body {
+      background-repeat: no-repeat, no-repeat;
+      background-position: top -400px left -770px, bottom -1250px right -799px;
+  }
