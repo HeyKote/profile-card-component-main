@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -526px left 50px, bottom -1400px right -50px;
+    background-color:hsl(185, 75%, 39%);
+}
+
+.card {
+    position: absolute;
+    width: 325px;
+    height: 375px;
+    background-color: #FFF;
+    border-radius: 16px;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+  }
+
+.card .back-pattern {
+    height: 125px;
+    background-image: url(./images/bg-pattern-card.svg);
+}
+
+.card .user-photo img{
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: -15%;
+
+}
+
+.card .user-information .user .user-name {
+    font-weight: 700;
+}
+
+.card .user-information .user .user-age {
+    color: hsl(227, 10%, 46%)}
+
+.card .user-information .user{
+    margin-top: 20px;
+}
+
+.card .user-information .user-city {
+    margin-top: 15px;
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+}
+
+.account-information {
+    margin-top: 30px;
+    border-top: 2px solid hsl(0, 0%, 93%);
+    display: flex;
+    height: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.account-information .statistic {
+    font-weight: 800;
+}
+
+.account-information .label {
+    margin-top: 5px;
+    color: hsl(227, 10%, 46%);
+    font-size: 12px;
+}
